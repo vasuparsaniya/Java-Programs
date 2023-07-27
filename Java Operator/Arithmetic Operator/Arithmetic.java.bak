@@ -1,0 +1,22 @@
+/* Arithmetic operatoe in java */
+
+import java.util.Scanner;  //import package
+class Arithmetic
+{
+	public static void main (String[] args)
+	{
+		int a,b;
+		System.out.println("Enter two Numbers:");
+		
+		Scanner obj=new Scanner(System.in);  //making scanner class object
+		
+		a=obj.nextInt();//scanner class method call by scanner class object
+		b=obj.nextInt();//scanner class method call by scanner class object
+		
+		System.out.println("Addition"+(a+b));
+		System.out.println("Subtraction"+(a-b));
+		System.out.println("Multiplication"+(a*b));
+		System.out.println("Division"+(a/b));
+		System.out.println("Remainder"+(a%b));
+	}
+}

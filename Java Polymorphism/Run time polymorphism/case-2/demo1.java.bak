@@ -1,0 +1,26 @@
+/*method overloading */
+
+class shape  //superclass
+{
+
+}
+
+class square extends shape  //sub class
+{
+	void draw()
+	
+	{
+		System.out.println("square shape");
+	}
+}
+
+class demo1  
+{
+	public static void main(String[] args)
+	{
+		shape r=new square();   //make subclass object reference of superclass
+		
+		r.draw();
+	}
+}
+

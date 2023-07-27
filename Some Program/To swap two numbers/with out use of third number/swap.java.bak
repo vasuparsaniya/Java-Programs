@@ -1,0 +1,21 @@
+/*swap of two numbers with out use of third variable */
+import java.util.Scanner;
+class swap 
+{
+	public static void main(String[] args)
+	{
+		int a,b,temp;
+		System.out.println("Enter two numbers:");
+		Scanner r=new Scanner(System.in);
+		a=r.nextInt();
+		b=r.nextInt();
+		
+		System.out.println("Before swapping"+" "+"a="+a+" "+"b="+b);
+		
+		temp=a;
+		a=b;
+		b=temp;
+		
+		System.out.println("After swapping"+" "+"a="+a+" "+"b="+b);
+	}
+}

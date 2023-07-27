@@ -1,0 +1,23 @@
+/* Maximum number between two numbers */
+
+import java.util.Scanner;
+class max
+{
+	public static void main(String[] args)
+	{
+		int a,b;
+		System.out.println("Enter two numbers:");
+		Scanner r=new Scanner(System.in);
+		a=r.nextInt();
+		b=r.nextInt();
+		
+		if(a>b)
+		{
+			System.out.println("Maximum number is:"+a);
+		}
+		else
+		{
+			System.out.println("Maximum number is:"+b);
+		}
+	}
+}

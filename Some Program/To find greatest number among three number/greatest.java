@@ -1,0 +1,41 @@
+/* Find greatest number among three number*/
+
+import java.util.Scanner;
+class greatest
+{
+	public static void main(String[] args)
+	{
+		int a,b,c;
+		System.out.println("Enter three number:");
+		Scanner r=new Scanner(System.in);
+		a=r.nextInt();
+		b=r.nextInt();
+		c=r.nextInt();
+		
+		if(a>b)
+		{
+			if(a>c)
+			{
+				System.out.println("Greatest number is:"+a);
+			}
+			else
+			{
+				System.out.println("Greatest number is:"+c);
+			}
+		}
+		else
+		{
+			if(b>c)
+			{
+				System.out.println("Greatest number is:"+b);
+			}
+			else
+			{
+				System.out.println("Greatest number is:"+c);
+			}
+		}
+	}
+}
+
+/*  -->We use nested if-else
+*/

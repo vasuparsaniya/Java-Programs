@@ -1,0 +1,18 @@
+/*Print Multiplication table*/
+import java.util.Scanner;
+class table
+{
+	public static void main(String[] args)
+	{
+		int n,result;
+		System.out.println("Enter any number:");
+		Scanner r=new Scanner(System.in);
+		n=r.nextInt();
+		
+		for(int i=1;i<=10000000;i++)
+		{
+			result=n*i;
+			System.out.println(n+"*"+i+"="+result);
+		}
+	}
+}

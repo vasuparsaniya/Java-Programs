@@ -1,0 +1,12 @@
+/* Implicit Ttpe casting */
+
+class Implicit
+{
+	public static void main(String[] args)
+	{
+		int a=10;    //int size 4 bytes
+		double b=a; //double 8 bytes
+		
+		System.out.println(b);
+	}
+}

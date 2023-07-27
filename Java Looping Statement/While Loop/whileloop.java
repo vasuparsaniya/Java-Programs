@@ -1,0 +1,21 @@
+ /* While loop */
+ 
+import java.util.Scanner;
+class whileloop
+{
+	public static void main(String[] args)
+	{
+		int n;
+		System.out.print("Enter value for condiiton:\n");
+		Scanner r=new Scanner(System.in);
+		n=r.nextInt();
+		
+		while(n>=0)
+		{
+			System.out.println("Learn coding");
+		}
+	}
+}
+
+/*  -->In this case output print infinite time
+*/

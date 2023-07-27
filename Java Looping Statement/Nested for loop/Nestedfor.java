@@ -1,0 +1,30 @@
+/* Nested for loop */
+
+class Nestedfor
+{ 
+	public static void main(String[] args)
+	{
+		int i,j;
+		
+		for(i=1;i<=5;i++)  //row
+		{
+			for(j=1;j<=5;j++)//colunm
+			{
+			}
+				System.out.print("* ");
+			System.out.println();//provide new line
+		}
+	}
+}
+
+/*  -->In this case outer loop one time execute thay to inner loop five time execute thay
+
+for(i=0;i<=n;i++)  //row
+		{
+			for(j=i;j<=n-1;j++)//colunm
+			{
+				System.out.print("* ");
+			}
+			System.out.println();//provide new line
+		}
+*/ 

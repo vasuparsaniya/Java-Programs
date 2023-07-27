@@ -1,0 +1,15 @@
+/* Scanner Class */
+
+class scanner
+{
+	public static void main(String[] args)
+	{
+		int a;
+		System.out.println("Enter Data");
+		
+		scanner obj=new scanner(System.in);  //making scanner class object
+        a=obj.nextInt();  //scanner class method which is excess by scanner cvlass object
+   
+        System.out.println("Get Data:"+a);   
+	}
+}
